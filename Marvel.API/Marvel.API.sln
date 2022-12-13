@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.API", "Vixtra.Marvel.API\Marvel.API.csproj", "{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Application", "Vixtra.Marvel.Application\Marvel.Application.csproj", "{86A4932F-492F-45BE-A353-A1F977804C74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Domain", "Vixtra.Marvel.Domain\Marvel.Domain.csproj", "{4B451572-A00D-4A75-BFF5-13171799C7FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Infrastructure", "Vixtra.Marvel.Infrastructure\Marvel.Infrastructure.csproj", "{9242EAA0-BC6A-4518-AF10-B228B134F8FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.UnitTests", "Vixtra.Marvel.UnitTests\Marvel.UnitTests.csproj", "{283C14E6-6A44-46E3-908D-4EEB009AECF1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E3A576B-A71B-491E-9A29-BA763FBD57A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A4932F-492F-45BE-A353-A1F977804C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A4932F-492F-45BE-A353-A1F977804C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A4932F-492F-45BE-A353-A1F977804C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A4932F-492F-45BE-A353-A1F977804C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B451572-A00D-4A75-BFF5-13171799C7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B451572-A00D-4A75-BFF5-13171799C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B451572-A00D-4A75-BFF5-13171799C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B451572-A00D-4A75-BFF5-13171799C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9242EAA0-BC6A-4518-AF10-B228B134F8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9242EAA0-BC6A-4518-AF10-B228B134F8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9242EAA0-BC6A-4518-AF10-B228B134F8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9242EAA0-BC6A-4518-AF10-B228B134F8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283C14E6-6A44-46E3-908D-4EEB009AECF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283C14E6-6A44-46E3-908D-4EEB009AECF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283C14E6-6A44-46E3-908D-4EEB009AECF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283C14E6-6A44-46E3-908D-4EEB009AECF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3A576B-A71B-491E-9A29-BA763FBD57A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3A576B-A71B-491E-9A29-BA763FBD57A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3A576B-A71B-491E-9A29-BA763FBD57A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3A576B-A71B-491E-9A29-BA763FBD57A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A09AA66-3135-414A-A03F-5D1577EF465A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  vixtra.marvel.api:
+    image: ${DOCKER_REGISTRY-}vixtramarvelapi
+    build:
+      context: .
+      dockerfile: Marvel.API\Dockerfile

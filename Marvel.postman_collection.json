@@ -1,0 +1,438 @@
+{
+	"info": {
+		"_postman_id": "0325b110-428a-4b2f-89d3-b3d4b5950eb4",
+		"name": "Vixtra.Marvel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8413514"
+	},
+	"item": [
+		{
+			"name": "Localhost",
+			"item": [
+				{
+					"name": "Heroes",
+					"item": [
+						{
+							"name": "1 - Initial Load",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/InitialLoad",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"InitialLoad"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2 - Get All Heroes Paginated",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/GetAllHeroes?Query&Page=1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"GetAllHeroes"
+									],
+									"query": [
+										{
+											"key": "Query",
+											"value": null
+										},
+										{
+											"key": "Page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3 - Get Hero By Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Hero/2",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Hero",
+										"2"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "1",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4 - Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Teste Postman\",\r\n  \"attackPower\": 100,\r\n  \"defensePower\": 100,\r\n  \"hp\": 500,\r\n  \"affiliation\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Create",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5 - Update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"string\",\r\n  \"attackPower\": 0,\r\n  \"defensePower\": 0,\r\n  \"hp\": 0,\r\n  \"affiliation\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Update",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6 - Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Delete/1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Delete",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Battle",
+					"item": [
+						{
+							"name": "Battle",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"heroInFavorId\": 1,\r\n  \"heroAgainstId\": 9\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7283/api/Battle",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Battle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Docker",
+			"item": [
+				{
+					"name": "Heroes",
+					"item": [
+						{
+							"name": "1 - Initial Load",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/InitialLoad",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"InitialLoad"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2 - Get All Heroes Paginated",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/GetAllHeroes?Query&Page=1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"GetAllHeroes"
+									],
+									"query": [
+										{
+											"key": "Query",
+											"value": null
+										},
+										{
+											"key": "Page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3 - Get Hero By Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Hero/2",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Hero",
+										"2"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "1",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4 - Create",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"name\": \"Teste Postman\",\r\n  \"attackPower\": 100,\r\n  \"defensePower\": 100,\r\n  \"hp\": 500,\r\n  \"affiliation\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Create",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5 - Update",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": 0,\r\n  \"name\": \"string\",\r\n  \"attackPower\": 0,\r\n  \"defensePower\": 0,\r\n  \"hp\": 0,\r\n  \"affiliation\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Update",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "6 - Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7283/api/Heroes/Delete/1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Heroes",
+										"Delete",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Battle",
+					"item": [
+						{
+							"name": "Battle",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"heroInFavorId\": 1,\r\n  \"heroAgainstId\": 9\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7283/api/Battle",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7283",
+									"path": [
+										"api",
+										"Battle"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
