@@ -1,5 +1,5 @@
 
-# Vixtra - Marvel Challenge API
+# Marvel API
 
 
 
