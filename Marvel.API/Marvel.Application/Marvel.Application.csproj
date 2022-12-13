@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vixtra.Marvel.Infrastructure\Marvel.Infrastructure.csproj" />
+    <ProjectReference Include="..\Marvel.Infrastructure\Marvel.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vixtra.Marvel.Application\Marvel.Application.csproj" />
+    <ProjectReference Include="..\Marvel.Application\Marvel.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vixtra.Marvel.Domain\Marvel.Domain.csproj" />
+    <ProjectReference Include="..\Marvel.Domain\Marvel.Domain.csproj" />
   </ItemGroup>
 
 </Project>

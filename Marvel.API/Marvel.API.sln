@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.API", "Vixtra.Marvel.API\Marvel.API.csproj", "{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.API", "Marvel.API\Marvel.API.csproj", "{A2FC7F66-679A-47C3-80FA-1A8B995F1BEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Application", "Vixtra.Marvel.Application\Marvel.Application.csproj", "{86A4932F-492F-45BE-A353-A1F977804C74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Application", "Marvel.Application\Marvel.Application.csproj", "{86A4932F-492F-45BE-A353-A1F977804C74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Domain", "Vixtra.Marvel.Domain\Marvel.Domain.csproj", "{4B451572-A00D-4A75-BFF5-13171799C7FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Domain", "Marvel.Domain\Marvel.Domain.csproj", "{4B451572-A00D-4A75-BFF5-13171799C7FB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Infrastructure", "Vixtra.Marvel.Infrastructure\Marvel.Infrastructure.csproj", "{9242EAA0-BC6A-4518-AF10-B228B134F8FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.Infrastructure", "Marvel.Infrastructure\Marvel.Infrastructure.csproj", "{9242EAA0-BC6A-4518-AF10-B228B134F8FF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.UnitTests", "Vixtra.Marvel.UnitTests\Marvel.UnitTests.csproj", "{283C14E6-6A44-46E3-908D-4EEB009AECF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marvel.UnitTests", "Marvel.UnitTests\Marvel.UnitTests.csproj", "{283C14E6-6A44-46E3-908D-4EEB009AECF1}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E3A576B-A71B-491E-9A29-BA763FBD57A1}"
 EndProject
